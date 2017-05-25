@@ -7,8 +7,9 @@
     margin:0 auto;   
 }
 
-body {
-    background-color: #fff;    
+body  {
+    background-image: url("paper.gif");
+    background-color: #000;
 }
 
 @media screen and (max-width:900px) {
@@ -35,7 +36,13 @@ body {
     color:#000;
     display: table-cell;
     text-align:center;
-    
+    padding:50px 50px 0px 50px ;
+}
+
+.title {    
+    text-align:center;
+    font-size: 20px;
+    min-width: 50px;
 }
 
 span {
@@ -54,13 +61,13 @@ p {
 
 .content-box {
     background-color: #f2f2f2;
-    border: 2px solid #000;
+    border: 2px solid #990000;
     padding: 15px;
     color:#000;
 }
 .button {
-    width: 10%;
-    max-width: 70px;
+    width: 20%;
+    max-width: 100px;
     min-width: 50px;
     position: relative;
 }
@@ -81,6 +88,7 @@ footer {
 .copyright {
     text-align:left;
     font-size:80%;
+    color: #fff;
 }
 
 .acercadelautor>img {
@@ -106,3 +114,16 @@ font-weight:bold;
 font-size:20px;
 padding-left:5px;
 }
+
+.mc_embed_signup {
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+}
+
+input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+input[type=checkbox]{-webkit-appearance:checkbox;}
+input[type=radio]{-webkit-appearance:radio;}
+input:focus {border-color:#333;}
+.botton {clear:both; background-color: #aaa; border: 0 none; border-radius:5px; transition: all 0.23s ease-in-out 0s; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:12px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 2px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+.botton:hover {background-color:#777;}
